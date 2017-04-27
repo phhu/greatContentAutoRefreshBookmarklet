@@ -5,4 +5,4 @@ It reloads the page at specified intervals and looks for an increase in the numb
 
 This is useful because it saves having to manually refresh and monitor the page for new jobs.
 
-<a href="javascript:alert('hello');">Test</a>
+[test](javascript:alert('hello');)
