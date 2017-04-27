@@ -5,4 +5,4 @@ It reloads the page at specified intervals and looks for an increase in the numb
 
 This is useful because it saves having to manually refresh and monitor the page for new jobs.
 
-[test](http://google.com)
+<a href="javascript:alert('Phrappe.com rocks!')">A vary basic bookmarklet!</a>
