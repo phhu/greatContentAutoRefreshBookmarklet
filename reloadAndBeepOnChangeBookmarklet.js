@@ -27,8 +27,8 @@ javascript:
 			console.log("reloading...");
 			
 			var frameset =  '<frameset cols="*">' +
-								'<frame name="frame01" id="frame01" src="'+ locationHref +'"/>' +
-							'</frameset>';
+				'<frame name="frame01" id="frame01" src="'+ locationHref +'"/>' +
+			'</frameset>';
 			document.write(frameset);
 			document.close();
 			
