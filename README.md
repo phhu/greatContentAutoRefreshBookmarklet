@@ -8,7 +8,13 @@ This is useful because it saves having to manually refresh and monitor the page 
 Installation
 ============
 
-Drag the link from https://cdn.rawgit.com/phhu/reloadAndBeepOnChangeBookmarklet/master/installationLink.html to the bookmarketlets bar.
+Go to https://cdn.rawgit.com/phhu/reloadAndBeepOnChangeBookmarklet/master/installationLink.html and drag the link on that page to the bookmarks / favourites bar.
 
 Alternatively, create a new bookmark and put the contents of file ```reloadAndBeepOnChangeBookmarklet.js``` as the URL. 
 
+Use
+===
+
+Once on the main page, where job listings appear, click on the bookmarklet on the bookmarks bar / menu / folder. It will prompt for a refresh interval in seconds, and thereafter will refresh the page on that interval.
+
+You can monitor its function by opening developer tools (ctrl-shift-J in Chrome) and looking at the console.
