@@ -5,4 +5,9 @@ It reloads the page at specified intervals and looks for an increase in the numb
 
 This is useful because it saves having to manually refresh and monitor the page for new jobs.
 
+Installation
+============
+
+Create a new bookmark and put the contents of file ```reloadAndBeepOnChangeBookmarklet.js``` as the URL. 
+
 
