@@ -10,4 +10,3 @@ Installation
 
 Create a new bookmark and put the contents of file ```reloadAndBeepOnChangeBookmarklet.js``` as the URL. 
 
-<a href="javascript:alert('hello')" >test</a>
