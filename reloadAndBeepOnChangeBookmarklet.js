@@ -1,7 +1,7 @@
 javascript:
 	var beepRefreshMaxId = beepRefreshMaxId || 0;
 	(function(){
-		var divcontent, timeout, current;
+		var divcontent, timeout, locationHref;
 		beepRefreshMaxId++;
 		if (beepRefreshMaxId < 2){
 			divcontent = getDivContent();
@@ -10,7 +10,7 @@ javascript:
 				console.log("Starting page reload with interval of " + timeout + " seconds");
 				console.log("There appear to be " + divcontent + " table rows now.");
 				
-				current=location.href;
+				locationHref=location.href;
 				setIndicator();
 				setTimeout(reload,1000*timeout);
 			} 
@@ -26,8 +26,11 @@ javascript:
 		function reload(){
 			console.log("reloading...");
 			
-			var fr4me='<frameset cols=\'*\'>\n<frame name="frame01" id="frame01" src=\''+current+'\'/></frameset>';
-			with(document){write(fr4me);void(close())};
+			var frameset =  '<frameset cols="*">' +
+								'<frame name="frame01" id="frame01" src="'+ locationHref +'"/>' +
+							'</frameset>';
+			document.write(frameset);
+			document.close();
 			
 			getContainer().then(function($container){
 				setTimeout(checkContent,0);
