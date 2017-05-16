@@ -8,5 +8,7 @@ This is useful because it saves having to manually refresh and monitor the page 
 Installation
 ============
 
-Create a new bookmark and put the contents of file ```reloadAndBeepOnChangeBookmarklet.js``` as the URL. 
+Drag the link from https://cdn.rawgit.com/phhu/reloadAndBeepOnChangeBookmarklet/master/installationLink.html to the bookmarketlets bar.
+
+Alternatively, create a new bookmark and put the contents of file ```reloadAndBeepOnChangeBookmarklet.js``` as the URL. 
 
